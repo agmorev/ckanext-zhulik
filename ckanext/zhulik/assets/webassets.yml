@@ -1,0 +1,14 @@
+# zhulik-js:
+#   filter: rjsmin
+#   output: ckanext-zhulik/%(version)s-zhulik.js
+#   contents:
+#     - js/zhulik.js
+#   extra:
+#     preload:
+#       - base/main
+
+# zhulik-css:
+#   filter: cssrewrite
+#   output: ckanext-zhulik/%(version)s-zhulik.css
+#   contents:
+#     - css/zhulik.css

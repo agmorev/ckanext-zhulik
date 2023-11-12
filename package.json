@@ -1,0 +1,23 @@
+{
+  "name": "ckanext-zhulik",
+  "version": "1.0.0",
+  "description": "CKAN: The Open Source Data Portal Software ==========================================",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-touch-fd": "^2.0.0",
+    "pyright": "^1.1.296",
+    "sass": "^1.49.8"
+  },
+  "scripts": {
+    "dev": "DEBUG=1 gulp watch",
+    "build": "gulp build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
